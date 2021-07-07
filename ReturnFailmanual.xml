@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Return" parallel="methods" thread-count="2">
+<listeners>
+<listener class-name="testing.TransformerFaild"></listener>
+</listeners>
+<test name="test">
+<classes>
+<class name="testing.ReturnFaildTestmanual"></class>
+</classes>
+</test>
+</suite>
